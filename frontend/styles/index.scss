@@ -1,0 +1,79 @@
+@import "~bulma/bulma";
+@import "@fortawesome/fontawesome-free";
+
+
+main {
+  background: #171530 url('/images/music-website-bg.jpg') repeat-x;
+  background-size: contain;
+}
+
+a,
+a:hover {
+  color:#FEAE63;
+}
+
+h2, h3 {
+  font-family: 'Amatic SC', cursive;
+  color: #FEAE63;
+}
+
+h3 {
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+blockquote p {
+  color: #eee;
+  text-align: justify;
+}
+
+section {
+  text-align: center;
+}
+
+blockquote {
+  border: 0;
+  text-align: justify;
+  font-style: italic;
+}
+
+.glow-border {
+  margin-top: 25px;
+  //box-shadow: 0 0 25px rgb(254, 182, 111, 0.8);
+}
+
+.sketchy {
+  border: 2px solid #333333;
+  font-size: 2.0rem;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #ffffff;
+  position: relative;
+
+  &::before {
+    content: '';
+    border: 2px solid #353535;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+  }
+}
+
+.bandcamp-iframe-contianer {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  height: 664px;
+}
+
+@media only screen and (min-width: 1201px) {
+  .bandcamp-iframe-contianer {
+    height: 880px;
+  }
+}
