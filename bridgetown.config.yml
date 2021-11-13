@@ -15,9 +15,11 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 
-baseurl: "" # OPTIONAL: the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: pretty
 
+base_path: "/" # the subpath of your site, e.g. /blog
 # timezone: America/Los_Angeles
+# pagination:
+#   enabled: true
