@@ -58,6 +58,8 @@ You can deploy Bridgetown sites on hosts like Render or Vercel as well as tradit
 
 > Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
 
+    scp -r output/* unmedial:dahie.rocks-2021
+
 ## Contributing
 
 If repo is on GitHub:
