@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+	<head>
+		<title>{{ title }} | {{ site.name }}</title>
+		<meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    {% include "metadata.njk" %}
+	</head>
+	<body class="is-preload">
+    {{ content | safe }}
+
+    {% getBundle "fontawesome" %}
+    <script defer data-domain="dahie.rocks" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+	</body>
+</html>

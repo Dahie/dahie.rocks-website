@@ -40,23 +40,11 @@ Use a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](
 ### Commands
 
 ```sh
-# running locally
-bin/bridgetown start
+npm run serve
 
-# build & deploy to production
-bin/bridgetown deploy
-
-# load the site up within a Ruby console (IRB)
-bin/bridgetown console
 ```
 
-> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
-
 ## Deployment
-
-You can deploy Bridgetown sites on hosts like Render or Vercel as well as traditional web servers by simply building and copying the output folder to your HTML root.
-
-> Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
 
     scp -r output/* unmedial:dahie.rocks-2021
 

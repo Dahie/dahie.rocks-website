@@ -1,11 +1,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-{% capture page_title %}{{ title | strip_html | strip_newlines }}{% endcapture %}
-<title>{% if page_title != "" %}{{ page_title | escape }} | {{ metadata.title | escape }}{% else %}{{ metadata.title | escape }}: {{ metadata.tagline | escape }}{% endif %}</title>
 
 <meta name="description" content="{{ metadata.description }}" />
 
-<meta name="keywords" content="ukulele, music, ukeboogie, rock, artist, daniel senff">
+<meta name="keywords" content="ukulele, music, ukeboogie, rock, artist, daniel senff, dahie">
 <meta name="robots" content="index, follow">
 <meta name="language" content="English">
 
@@ -23,9 +21,6 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 
-
-<link rel="stylesheet" href="{% asset_path css %}" />
-<script src="{% asset_path js %}" defer></script>
 
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">

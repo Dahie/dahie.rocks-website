@@ -1,12 +1,7 @@
-# Bridgetown
-output
-.bridgetown-cache
-.bridgetown-metadata
-.bridgetown-webpack
+dist/
 
 # Dependency folders
 node_modules
-bower_components
 vendor
 
 # Caches
@@ -14,11 +9,6 @@ vendor
 .npm
 .node_repl_history
 
-# Ignore bundler config.
-/.bundle
-
-# Ignore Byebug command history file.
-.byebug_history
 
 # dotenv environment variables file
 .env
