@@ -1,41 +1,25 @@
-# Bridgetown Website README
+# dahie.rocks Website
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+Inspired by
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-- [Development](#development)
-- [Commands](#commands)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- https://github.com/ok/11ty-bulma-template
 
 ## Prerequisites
 
-- [GCC](https://gcc.gnu.org/install/)
-- [Make](https://www.gnu.org/software/make/)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
-  - `>= 2.7`
-- [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
-  - `gem install bridgetown -N`
 - [Node](https://nodejs.org)
   - `>= 12`
-- [Yarn](https://yarnpkg.com)
 
 ## Install
 
 ```sh
 cd bridgetown-site-folder
-bundle install && yarn install
+bundle install && npm install
 ```
-> Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
+
 
 ## Development
 
-To start your site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
 
-Use a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
 
 ### Commands
 
@@ -46,7 +30,7 @@ npm run serve
 
 ## Deployment
 
-    scp -r output/* unmedial:dahie.rocks-2021
+    scp -r output/* unmedial:dahie.rocks-2025
 
 ## Contributing
 

@@ -7,7 +7,7 @@
     "serve": "npx @11ty/eleventy --serve --watch --port=8081",
     "clean": "rm -r dist/",
     "build": "npx @11ty/eleventy",
-    "deploy": "npm run clean && npm run build && rsync -avz --omit-dir-times --delete dist/* unmedial:danielsenff.de-2023"
+    "deploy": "npm run clean && npm run build && rsync -avz --omit-dir-times --delete dist/* unmedial:dahie.rocks-2025"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
