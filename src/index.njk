@@ -5,67 +5,76 @@ title: Welcome
 layout: base.njk
 ---
 
-<section id="go">
-
+<section id="go" class="section release">
+  <div class="container is-max-desktop">
+    <div class="bandcamp-iframe-container glow-border">
+      <iframe style="border:0;position:absolute;top:0;left:0; width: 100%; height: 100%;" src="https://bandcamp.com/EmbeddedPlayer/track=806222729/size=large/bgcol=333333/linkcol=fe7eaf/minimal=true/transparent=true/" seamless>
+      <a href="https://dahie.bandcamp.com/track/go">Go by Dahie feat. Lädybug</a></iframe>
+    </div>
+  </div>
 </section>
 
-<section id="bettlekture">
-  <div class="wrapper width-50">
-    <section class="section">
-      <div class="bandcamp-iframe-contianer glow-border">
-        <iframe style="background-color: black; border:0;position:absolute;top:0;left:0;width:100%;height:100%;"
-          src="https://bandcamp.com/EmbeddedPlayer/album=3569383904/size=large/bgcol=333333/linkcol=FEAE63/transparent=true/"
-          seamless>
-          <a href="http://dahie.bandcamp.com/album/bettlekt-re">Bettlektüre by Dahie</a>
-        </iframe>
+<section id="bettlekture" class="section release">
+  <div class="container is-max-desktop">
+    <div class="bandcamp-iframe-container glow-border">
+      <iframe style="background-color: black; border:0;position:absolute;top:0;left:0;width:100%;height:100%;"
+        src="https://bandcamp.com/EmbeddedPlayer/album=3569383904/size=large/bgcol=333333/linkcol=FEAE63/transparent=true/"
+        seamless>
+        <a href="http://dahie.bandcamp.com/album/bettlekt-re">Bettlektüre by Dahie</a>
+      </iframe>
+    </div>
+
+    <nav class="navbar actions" role="navigation" aria-label="release navigation">
+      <div class="navbar-menu">
+        <a class="navbar-item">
+          <span class="icon solid alt">
+            {% icon "fab:bandcamp" %}
+          </span>
+        </a>
+
+        <a class="navbar-item">
+          <span class="icon solid alt">
+            {% icon "fab:soundcloud" %}
+          </span>
+        </a>
+
+        <a class="navbar-item">
+          <span class="icon solid alt">
+            {% icon "fab:spotify" %}
+          </span>
+        </a>
       </div>
+    </nav>
 
-      <h3>
-        <ul class="columns is-mobile">
-          <li class="column bandcamp">
-            <a href="https://dahie.bandcamp.com/album/bettlekt-re/"><i class="fab fa-bandcamp"></i></a>
-          </li>
-          <li class="column soundcloud">
-            <a href="https://soundcloud.com/dahie/sets/bettlektuere"><i class="fab fa-soundcloud"></i></a>
-          </li>
-          <li class="column jamendo">
-            <a href="https://www.jamendo.com/album/188369/bettlektuere"><i class="fab fa-jamendo"></i></a>
-          </li>
-          <li class="column spotify">
-            <a href="https://open.spotify.com/album/6uV789CV5OUg4QkHFOm3tN"><i class="fab fa-spotify"></i></a>
-          </li>
-          <li class="column">
-            <a href="https://everchords.app/dahie/">Lyrics</a>
-          </li>
-        </ul>
-      </h3>
-    </section>
-
-    <section class="section">
-      <h3>Videos</h3>
-      <div style="padding:75.16% 0 0 0;position:relative;"><iframe
-          src="https://player.vimeo.com/video/351883630?color=FEAE63&portrait=0&dnt=1"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
-          allowfullscreen></iframe></div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-      <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mI1V9hmrdKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-      <!--<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1035306684/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/transparent=true/" seamless><a href="http://dahie.bandcamp.com/track/dance-baby">Dance, Baby by Dahie</a></iframe>-->
-    </section>
-
-    <section class="section">
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-          src="https://player.vimeo.com/video/351877020?color=FEAE63&portrait=0&dnt=1"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
-          allowfullscreen></iframe></div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-      <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bo4PCbMgNP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-      <!--<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1460978724/size=large/bgcol=333333/linkcol=AB0000/tracklist=false/transparent=true/" seamless><a href="http://dahie.bandcamp.com/track/blight">Blight by Dahie</a></iframe>-->
-    </section>
   </div>
-</section
+</section>
 
-<section id="about">
-  <div class="wrapper width-33">
+
+<section class="section release">
+  <div class="container is-max-desktop">
+    <h3>Videos</h3>
+    <div style="padding:75.16% 0 0 0;position:relative;">
+      <iframe
+        src="https://player.vimeo.com/video/351883630?color=FEAE63&portrait=0&dnt=1"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
+        allowfullscreen></iframe></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mI1V9hmrdKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1035306684/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/transparent=true/" seamless><a href="http://dahie.bandcamp.com/track/dance-baby">Dance, Baby by Dahie</a></iframe>-->
+
+    <div class="mt-5" style="padding:56.25% 0 0 0;position:relative;">
+      <iframe
+        src="https://player.vimeo.com/video/351877020?color=FEAE63&portrait=0&dnt=1"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
+        allowfullscreen></iframe></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bo4PCbMgNP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1460978724/size=large/bgcol=333333/linkcol=AB0000/tracklist=false/transparent=true/" seamless><a href="http://dahie.bandcamp.com/track/blight">Blight by Dahie</a></iframe>-->
+  </div>
+</section>
+
+<section id="about" class="meta">
+  <div class="container">
     <section class="is-large">
       <h3>About</h3>
       <blockquote class="has-text-justified">
@@ -80,19 +89,39 @@ layout: base.njk
       <h3>
         <ul class="columns is-mobile">
           <li class="column home">
-            <a href="http://danielsenff.de" rel="me"><i class="fa fa-home"></i></a>
+            <a href="http://danielsenff.de" rel="me">
+              <span class="icon solid alt">
+                {% icon "fa:home" %}
+              </span>
+            </a>
           </li>
           <li class="column mastodon">
-            <a href="https://chaos.social/@dahie" rel="me"><i class="fab fa-mastodon"></i></a>
+            <a href="https://chaos.social/@dahie" rel="me">
+              <span class="icon solid alt">
+                {% icon "fab:mastodon" %}
+              </span>
+            </a>
           </li>
           <li class="column bandcamp">
-            <a href="https://dahie.bandcamp.com/" rel="me"><i class="fab fa-bandcamp"></i></a>
+            <a href="https://dahie.bandcamp.com/" rel="me">
+              <span class="icon solid alt">
+                {% icon "fab:bandcamp" %}
+              </span>
+            </a>
           </li>
           <li class="column spotify">
-            <a href="https://open.spotify.com/artist/4wLo2loz0XexSMnMghKGUd" rel="me"><i class="fab fa-spotify"></i></a>
+            <a href="https://open.spotify.com/artist/4wLo2loz0XexSMnMghKGUd" rel="me">
+              <span class="icon solid alt">
+                {% icon "fab:spotify" %}
+              </span>
+            </a>
           </li>
           <li class="column soundcloud">
-            <a href="https://www.soundcloud.com/dahie" rel="me"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://www.soundcloud.com/dahie" rel="me">
+              <span class="icon solid alt">
+                {% icon "fab:soundcloud" %}
+              </span>
+            </a>
           </li>
         </ul>
       </h3>

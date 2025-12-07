@@ -1,5 +1,4 @@
 import fontAwesomePlugin from "@11ty/font-awesome";
-import eleventySass from "@11tyrocks/eleventy-plugin-sass-lightningcss";
 
 export default async function(eleventyConfig) {
 
@@ -15,7 +14,6 @@ export default async function(eleventyConfig) {
     transform: false, // disable the Eleventy transform
     shortcode: "icon",
 	})
-  eleventyConfig.addPlugin(eleventySass);
 
 	return {
     dir: {

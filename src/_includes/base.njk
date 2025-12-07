@@ -3,7 +3,12 @@
 	<head>
 		<title>{{ title }} | {{ site.name }}</title>
 		<meta charset="utf-8" />
+	{%- if site.environment == "production" %}
+    <link rel="stylesheet" href="{{ '/css/main.min.css' | url }}">
+    {%- else %}
+    <link rel="stylesheet" href="{{ '/css/bulma.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    {%- endif %}
     {% include "metadata.njk" %}
 	</head>
 	<body class="is-preload">
